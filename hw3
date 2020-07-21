@@ -1,5 +1,6 @@
 a=999999999.0
 b=1e-9
+c=0.0
 for i in range(1,100000000):
-    a=a+b
-print(a)
+    c=c+b
+print(a+c)
